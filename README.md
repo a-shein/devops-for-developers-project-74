@@ -1,6 +1,7 @@
 # Упаковка в Docker Compose
 
 [![hexlet-check](https://github.com/a-shein/devops-for-developers-project-74/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/a-shein/devops-for-developers-project-74/actions)
+[![push](https://github.com/a-shein/devops-for-developers-project-74/actions/workflows/push.yml/badge.svg)](https://github.com/a-shein/devops-for-developers-project-74/actions/workflows/push.yml)
 
 Автоматизация развертывания и обновления локального окружения с помощью Docker Compose, Github Actions (CI), Makefile
 
