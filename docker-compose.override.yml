@@ -2,6 +2,8 @@ services:
   app:
     build:
       dockerfile: Dockerfile
+    env_file:
+      - ./app/.env
     volumes:
       - ./app:/app
     ports:
