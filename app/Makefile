@@ -1,6 +1,7 @@
 setup: install build
 
 install:
+	command -v pnpm >/dev/null 2>&1 || (npm install -g corepack && corepack enable)
 	pnpm install
 
 build:
